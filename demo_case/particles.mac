@@ -1,0 +1,6 @@
+/gps/particle neutron
+/gps/position 0 0 -10 mm
+/gps/direction 0 0 1
+/gps/ene/type Arb
+/gps/hist/file Cf252Spectrum.txt
+/gps/hist/inter  Lin

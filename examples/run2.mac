@@ -1,0 +1,9 @@
+/run/initialize
+
+/gps/particle e-
+/gps/energy 0.546 MeV
+/gps/ang/type iso
+
+/analysis/setFileName test
+/run/printProgress 100
+/run/beamOn 1000

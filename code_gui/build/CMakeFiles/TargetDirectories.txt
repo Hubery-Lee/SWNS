@@ -1,0 +1,7 @@
+/home/hubery-lee/SWNS-Scoring -v2.0/install/build/CMakeFiles/install/strip.dir
+/home/hubery-lee/SWNS-Scoring -v2.0/install/build/CMakeFiles/install/local.dir
+/home/hubery-lee/SWNS-Scoring -v2.0/install/build/CMakeFiles/install.dir
+/home/hubery-lee/SWNS-Scoring -v2.0/install/build/CMakeFiles/list_install_components.dir
+/home/hubery-lee/SWNS-Scoring -v2.0/install/build/CMakeFiles/rebuild_cache.dir
+/home/hubery-lee/SWNS-Scoring -v2.0/install/build/CMakeFiles/edit_cache.dir
+/home/hubery-lee/SWNS-Scoring -v2.0/install/build/CMakeFiles/SWNS.dir

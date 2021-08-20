@@ -1,0 +1,7 @@
+// Define a parameter for later use
+:P SHEILD_LENGTH 20*cm
+
+//#include Sr90.txt
+#include Gd_n.txt
+
+

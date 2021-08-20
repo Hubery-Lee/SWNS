@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "enums": "cpp",
+        "*.icc": "cpp",
+        "array": "cpp",
+        "vector": "cpp"
+    }
+}

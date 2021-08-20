@@ -1,0 +1,9 @@
+/home/hubery-lee/SWNS-Scoring-v2.0/bin/SWNS-GUI
+/home/hubery-lee/SWNS-Scoring-v2.0/bin/SWNS
+/home/hubery-lee/SWNS-Scoring-v2.0/bin/SWNSgeom.txt
+/home/hubery-lee/SWNS-Scoring-v2.0/bin/Y90Spectrum.txt
+/home/hubery-lee/SWNS-Scoring-v2.0/bin/history.out
+/home/hubery-lee/SWNS-Scoring-v2.0/bin/particles.mac
+/home/hubery-lee/SWNS-Scoring-v2.0/bin/physiclists.txt
+/home/hubery-lee/SWNS-Scoring-v2.0/bin/run.mac
+/home/hubery-lee/SWNS-Scoring-v2.0/bin/scoring_prob.mac

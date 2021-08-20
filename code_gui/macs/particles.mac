@@ -1,0 +1,16 @@
+# For file-based drivers, use this to create an empty detector view:
+#/vis/viewer/flush
+#/gun/particle gamma
+#/gun/energy 10 MeV
+
+/gps/particle neutron #gamma
+
+#/gps/energy 14 MeV
+/gps/ene/type Arb
+/gps/hist/file Y90Spectrum.txt
+/gps/hist/inter Exp
+
+#/gps/ang/type iso
+/gps/direction 0 0 1
+
+/gps/position 0. 0. -8. mm

@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "SWNS-GUI",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "SWNS-GUI::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SWNS-GUI-Debug-0145b759be830217a142.json",
+					"name" : "SWNS-GUI",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "SWNS-GUI_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-SWNS-GUI_autogen-Debug-0e347b996abc75d8d04c.json",
+					"name" : "SWNS-GUI_autogen",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hubery-lee/SWNS-Scoring -v2.0/code_gui/gui/build",
+		"source" : "/home/hubery-lee/SWNS-Scoring -v2.0/code_gui/gui"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,9 @@
+:ELEM Oxygen O 8 16
+:ELEM Nitrogen N 7 14
+:MIXT Air 1.214E-3 2 Oxygen 0.25 Nitrogen 0.75 :MIXT_BY_WEIGHT
+:ROTM R0 0 0 0
+:SOLID world BOX 30 30 30
+:SOLID mytube TUBS 0 10 2.5 0 360
+:VOLU world world Air
+:VOLU mytube mytube G4_Fe
+:PLACE mytube 1 world R0 0.00 0.00 0.00
