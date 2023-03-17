@@ -1,0 +1,19 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/hubery-lee/Geant4/geant4.10.07p02-install/include/**",
+                "/home/hubery-lee/root/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc-8",
+            "cStandard": "c11",
+            "cppStandard": "c++14",
+            "intelliSenseMode": "${default}",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

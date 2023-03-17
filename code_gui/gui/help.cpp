@@ -7,6 +7,7 @@ Help::Help(QWidget *parent) :
     ui(new Ui::Help)
 {
     ui->setupUi(this);
+    setWindowTitle("使用说明");
 }
 
 Help::~Help()

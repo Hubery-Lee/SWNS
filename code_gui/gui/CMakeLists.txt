@@ -7,8 +7,8 @@ project(${PROJ_NAME} LANGUAGES CXX)
 # c++11
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_BUILD_TYPE "Debug")
-#set(CMAKE_BUILD_TYPE "Release")
+#set(CMAKE_BUILD_TYPE "Debug")
+set(CMAKE_BUILD_TYPE "Release")
 
 # 设置程序安装目录
 set(CMAKE_INSTALL_PREFIX ${PROJECT_SOURCE_DIR})
@@ -60,15 +60,21 @@ file(GLOB headers ${PROJECT_SOURCE_DIR}/*.h)
 file(GLOB forms ${PROJECT_SOURCE_DIR}/*.ui)
 file(GLOB resources ${PROJECT_SOURCE_DIR}/images.qrc)
 file(GLOB rc_icons ${PROJECT_SOURCE_DIR}/winapp.ico)
+file(GLOB exam ${PROJECT_SOURCE_DIR}/demo_case/*)
 
 #----------------------------------------------------------------------------
 # Add the executable, and link it to the Qt libraries
 # 
-# add_executable(${PROJECT_NAME} ${sources} ${headers} ${forms} ${resources} ${rc_icons} appicon.rc)  #for windows
-add_executable(${PROJECT_NAME} ${sources} ${headers} ${forms} ${resources} ${rc_icons})
+if(WIN32)
+add_executable(${PROJECT_NAME} ${sources} ${headers} ${forms} ${resources} ${rc_icons} appicon.rc)  #for windows
+endif(WIN32)
 
-target_link_libraries( ${PROJECT_NAME} PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
-#----------------------------------------------------------------------------
+if(UNIX)
+add_executable(${PROJECT_NAME} ${sources} ${headers} ${forms} ${resources} ${rc_icons})  #for linux
+endif(UNIX)
+
+
+target_link_libraries( ${PROJECT_NAME} PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)# ----------------------------------------------------------------------------
 # Install the executable to 'bin' directory under CMAKE_INSTALL_PREFIX
 #
 install(TARGETS ${PROJ_NAME} DESTINATION bin)
