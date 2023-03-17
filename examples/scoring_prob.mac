@@ -1,0 +1,34 @@
+#
+# define scoring probe
+#
+ /score/create/probe Probes 5 mm
+ /score/probe/material G4_Cu
+ /score/probe/locate 0. 0. 0. mm
+
+# define scoring mesh
+
+
+#
+# define flux scorers and filter
+#
+#/score/quantity/volumeFlux volFlux
+/score/quantity/nOfStep nOfStepGamma
+/score/filter/particle gammaFilter gamma
+#/score/quantity/nOfStep nOfStepEMinus
+#/score/filter/particle eMinusFilter e-
+/score/close
+#
+# define histograms
+#
+/analysis/setFileName Mytest
+#/analysis/h1/create volFlux Probes_volFlux 100 0.01 2.5 MeV ! log
+#/analysis/h1/create volFlux Probes_volFlux 1000 0.0 2.5 MeV
+#/analysis/h1/create volFlux Probes_volFlux 1000 0.0 10. MeV
+/analysis/h1/create nOfStepGamma Probes_gamma 1000 0.0 1.5 MeV
+#/analysis/h1/create nOfStepEMinus Probes_e 1000 0.0 300. keV
+#
+# filling histograms
+#
+#/score/fill1D 0 Probes volFlux
+/score/fill1D 0 Probes nOfStepGamma
+#/score/fill1D 2 Probes nOfStepEMinus

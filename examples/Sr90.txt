@@ -1,0 +1,18 @@
+// Define materials
+:ELEM Hydrogen H 1. 1.
+:ELEM Oxygen O 8 16.
+:MIXT Water 1. 2
+      Hydrogen   2./18.
+      Oxygen     16./18.
+
+// Define rotation matrix
+:ROTM R00 0. 0. 0.  // unit matrix
+
+// Define volumes and place them
+:VOLU world BOX 500. 500. 500. G4_AIR
+
+:VOLU Sheild SPHERE  2.*cm 2.2*cm 0. 360. 0. 360. G4_AIR
+:PLACE Sheild 1 world R00 0. 0.  0.
+
+:VOLU det SPHERE  2.2*cm 2.5*cm 0. 360. 0. 360. G4_AIR
+:PLACE det 1 world R00 0. 0. 0.

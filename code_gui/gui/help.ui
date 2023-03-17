@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Help</class>
+ <widget class="QWidget" name="Help">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1328</width>
+    <height>767</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTextBrowser" name="textBrowser">
+     <property name="html">
+      <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Ubuntu'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/images/help_data/userGuide_01.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_02.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_03.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_04.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_05.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_06.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_07.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_08.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_09.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_10.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_11.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_12.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_13.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_14.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_15.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_16.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_17.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_18.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_19.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_20.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_21.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_22.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_23.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_24.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_25.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_26.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_27.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_28.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_29.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_30.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_31.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_32.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_33.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_34.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_35.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_36.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_37.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_38.png&quot; /&gt;&lt;img src=&quot;:/images/help_data/userGuide_39.png&quot; /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

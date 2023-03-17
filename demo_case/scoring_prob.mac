@@ -1,0 +1,14 @@
+/score/create/probe myProbe 3 mm
+/score/probe/material Air
+/score/probe/locate 0 0 10 mm
+/score/quantity/flatSurfaceFlux zFlux
+/score/filter/particle zFlux neutron
+/analysis/setFileName Mytest1
+/analysis/h1/create Primary Primary 100 0.00001 100. MeV ! log
+/analysis/h1/create zFlux histFLux 100 0.00001 100. MeV ! log
+/score/fill1D 1 myProbe zFlux 
+/score/close
+
+
+/run/printProgress 1000
+/run/beamOn 10000

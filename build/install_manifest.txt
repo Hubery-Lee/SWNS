@@ -1,0 +1,9 @@
+/home/hubery-lee/WorkSpace/SWNS_final/bin/SWNS-GUI
+/home/hubery-lee/WorkSpace/SWNS_final/bin/SWNS
+/home/hubery-lee/WorkSpace/SWNS_final/bin/SWNSgeom.txt
+/home/hubery-lee/WorkSpace/SWNS_final/bin/Y90Spectrum.txt
+/home/hubery-lee/WorkSpace/SWNS_final/bin/history.out
+/home/hubery-lee/WorkSpace/SWNS_final/bin/particles.mac
+/home/hubery-lee/WorkSpace/SWNS_final/bin/physiclists.txt
+/home/hubery-lee/WorkSpace/SWNS_final/bin/run.mac
+/home/hubery-lee/WorkSpace/SWNS_final/bin/scoring_prob.mac

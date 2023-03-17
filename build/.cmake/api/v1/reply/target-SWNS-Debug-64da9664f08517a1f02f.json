@@ -1,0 +1,600 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "code_gui/SWNS"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"install",
+			"target_link_libraries",
+			"add_definitions",
+			"include",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"code_gui/CMakeLists.txt",
+			"/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/Geant4-10.7.4/UseGeant4.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 52,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 62,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 57,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 28,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 5
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 40,
+				"parent" : 5
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -pthread -ftls-model=initial-exec -std=c++11  -g -g  "
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-pthread"
+				},
+				{
+					"backtrace" : 3,
+					"fragment" : "-fPIC"
+				},
+				{
+					"fragment" : "-std=gnu++17"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "G4INTY_USE_QT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4INTY_USE_XT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "G4LIB_BUILD_DLL"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4UI_USE_QT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4UI_USE_TCSH"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4VIS_USE_OPENGL"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4VIS_USE_OPENGLQT"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "G4VIS_USE_OPENGLX"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_CORE_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_GUI_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_OPENGL_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_PRINTSUPPORT_LIB"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "QT_WIDGETS_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 7,
+					"path" : "/home/hubery-lee/WorkSpace/SWNS_final/code_gui/include"
+				},
+				{
+					"backtrace" : 8,
+					"isSystem" : true,
+					"path" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/include/Geant4"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtCore"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtGui"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtWidgets"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtOpenGL"
+				},
+				{
+					"backtrace" : 3,
+					"isSystem" : true,
+					"path" : "/usr/include/x86_64-linux-gnu/qt5/QtPrintSupport"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"id" : "SWNS::@d23347dc442a093707f9",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "bin"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/hubery-lee/WorkSpace/SWNS_final"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-W -Wall -pedantic -Wno-non-virtual-dtor -Wno-long-long -Wwrite-strings -Wpointer-arith -Woverloaded-virtual -Wno-variadic-macros -Wshadow -pipe -pthread -ftls-model=initial-exec -std=c++11  -g -g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib:/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4Tree.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4FR.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4GMocren.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4visHepRep.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4RayTracer.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4VRML.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4OpenGL.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4gl2ps.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4vis_management.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4modeling.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4interfaces.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4persistency.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4error_propagation.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4readout.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4physicslists.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4tasking.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4parmodels.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libCore.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libImt.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libRIO.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libNet.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libHist.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libGraf.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libGraf3d.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libGpad.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libROOTDataFrame.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libTree.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libTreePlayer.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libRint.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libPostscript.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libMatrix.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libPhysics.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libMathCore.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libThread.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libMultiProc.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/root-6.26.02/lib/libROOTVecOps.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libGL.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5OpenGL.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5PrintSupport.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libXmu.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libXext.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libXt.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libICE.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libSM.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libX11.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libxerces-c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4run.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4event.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4tracking.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4processes.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4analysis.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libexpat.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4digits_hits.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4track.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4particles.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4geometry.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4materials.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4zlib.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4graphics_reps.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4intercoms.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4global.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4clhep.so",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/home/hubery-lee/WorkSpace/Softwares/Geant4/geant4-v10.7.4-install/lib/libG4ptl.so.0.0.2",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-pthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "SWNS",
+	"nameOnDisk" : "SWNS",
+	"paths" : 
+	{
+		"build" : "code_gui",
+		"source" : "code_gui"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "code_gui/SWNS.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "code_gui/src/SWNSActionInitialization.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "code_gui/src/SWNSDetectorConstruction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "code_gui/src/SWNSPrimaryGeneratorAction.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "code_gui/src/SWNSRunAction.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

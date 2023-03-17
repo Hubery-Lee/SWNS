@@ -1,0 +1,10 @@
+:MATE Gd_ 64 157 7.9
+
+// Define rotation matrix
+:ROTM R00 0. 0. 0.  // unit matrix
+
+// Define volumes and place them
+:VOLU world BOX 100. 100. 100. G4_Galactic
+
+//:VOLU "my box" BOX  9. 9. 0.005 Gd_
+//:PLACE "my box" 1 world R00 0. 0. 0
